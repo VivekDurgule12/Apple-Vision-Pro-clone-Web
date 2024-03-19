@@ -23,34 +23,72 @@ body {
     background-color: #000;
 }
 
-#page>nav {
+#page nav {
+    padding: 1%;
+    background: #000;
+}
+
+#page #NavBarOne {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0px 20px;
-    height: 7vh;
-    width: 50vw;
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    transform: translateX(-50%);
+    justify-content: center;
+    color: #fff;
+    padding: 20px;
+    font-size: small;
+    opacity: 75%;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+#page #StickyNavBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    gap: 500px;
+    opacity: 75%;
+}
+
+#page #StickyNavBar #Book {
+    border: white 1px solid;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 15px;
+    height: 22px;
+    width: 120px;
+    background: #000;
+}
+
+#page #StickyNavBar .Right span {
+    opacity: 70%;
+    font-size: small;
+}
+
+#page #StickyNavBar #Book:hover {
+    color: #000000;
+    background: #ffffff;
+}
+
+#page #StickyNavBar #Buy {
+    width: 50px;
+    border-radius: 15px;
+    height: 20px;
+    background: #0071e3;
+    border: #0071e3 1px solid;
     color: #fff;
 }
 
-#page>nav>button {
-    padding: 7px 20px;
-    border-radius: 50px;
-    border: none;
-    background-color: #fff;
-}
-
-#page>nav>h3 {
-    font-weight: 400;
-}
-
 #page>video {
-    height: 100%;
-    width: 50%;
+    height: 130%;
+    width: 80%;
     object-fit: cover;
     position: absolute;
     left: 50%;

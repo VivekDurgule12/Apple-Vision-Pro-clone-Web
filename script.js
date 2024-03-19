@@ -37,7 +37,7 @@ gsap.to("#page>video", {
         trigger: `#page>video`,
         start: `2% top`,
         end: `bottom top`,
-        scroller: `#main`
+        scroller: `#main`,
     },
     onStart: () => {
         document.querySelector("#page>video").play()
