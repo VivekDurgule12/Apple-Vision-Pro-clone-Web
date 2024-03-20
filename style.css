@@ -67,6 +67,12 @@ nav ul li {
     background: #000;
 }
 
+#page #StickyNavBar button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #page #StickyNavBar .Right span {
     opacity: 70%;
     font-size: small;
@@ -88,7 +94,7 @@ nav ul li {
 
 #page>video {
     height: 130%;
-    width: 80%;
+    width: 70%;
     object-fit: cover;
     position: absolute;
     left: 50%;
@@ -111,6 +117,12 @@ nav ul li {
 #page-bottom>h3 {
     color: #dadada93;
     margin-bottom: 1vw;
+}
+
+#page #page-bottom p {
+    padding: 2%;
+    color: #ff5a00;
+    scale: 1.5;
 }
 
 #page1 {
