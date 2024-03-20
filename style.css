@@ -53,7 +53,7 @@ nav ul li {
     align-items: center;
     justify-content: center;
     height: auto;
-    gap: 500px;
+    gap: 400px;
     opacity: 75%;
 }
 
@@ -81,6 +81,10 @@ nav ul li {
 #page #StickyNavBar #Book:hover {
     color: #000000;
     background: #ffffff;
+}
+
+#page #StickyNavBar .Blue:hover {
+    color: #0071e3;
 }
 
 #page #StickyNavBar #Buy {
